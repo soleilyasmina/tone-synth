@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <button onClick={() => console.log('test')}>TONE</button>
+        <button onClick={() => Tone.start()}>TONE</button>
       </div>
     );
   }
