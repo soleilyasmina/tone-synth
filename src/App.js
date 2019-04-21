@@ -23,7 +23,7 @@ class App extends Component {
 		"release" : 0.1,
 	}
     }).toMaster();
-    synth.triggerAttack("D3", "+1");
+    synth.triggerAttackRelease("D3", "8n");
     
     this.setState({synth});
   }
